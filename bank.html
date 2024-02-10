@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCIU Bank</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif !important;
+        }
+    </style>
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Top section -->
+    <section class="container text-center mt-3 border-bottom border-primary border-3">
+        <h1 class="text-primary"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/8/81/Port_City_International_University_Logo.png"
+                alt="Port_City_International_University_Logo" class="img-fluid" width="60px"> PCIU BANK</h1>
+    </section>
+
+    <!-- login section -->
+    <section class="container mt-5">
+        <h2 class="text-center text-danger mb-5"><span class="border-bottom border-3 border-danger">Your Dashboard</span></h2>
+
+        <!-- account data section -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 bg-dark text-white">
+                <div class="card-body">
+                  <h5 class="card-title">Deposit</h5>
+                  <h1 class="card-text">BDT: 00TK</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-primary text-white">
+                <div class="card-body">
+                  <h5 class="card-title">Withdraw</h5>
+                  <h1 class="card-text">BDT: 00TK</h1>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-success text-white">
+                <div class="card-body">
+                  <h5 class="card-title">Balance</h5>
+                  <h1 class="card-text">BDT: 100TK</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- input section -->
+          <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+            <div class="col">
+              <div class="card h-100 bg-info text-dark">
+                <div class="card-body">
+                  <h5 class="card-title">Please Enter Your Deposit Amount:</h5>
+                  <input type="text" id="deposit" class="d-block">
+                  <button class="btn btn-light mt-2" type="submit" id="deposit-btn">Deposit</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-danger text-light shadow-lg border border-1">
+                  <div class="card-body">
+                    <h5 class="card-title">Please Enter Your Withdraw Amount:</h5>
+                    <input type="text" id="withdraw" class="d-block">
+                    <button class="btn btn-light mt-2" type="submit" id="withdraw-btn">Withdraw</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+
+    <!-- login.js link -->
+    <script src="/js/deposit.js"></script>
+    <script src="/js/withdraw.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
