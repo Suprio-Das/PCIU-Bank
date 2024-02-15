@@ -15,6 +15,6 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     } else {
         // Display an alert or perform other actions for invalid credentials
-        alert('Invalid credentials. Please try again.');
+        alert('Wrong input. Please try again.');
     }
 })
