@@ -37,4 +37,7 @@ This is a basic example and does not implement any real security features.
 The withdraw functionality does not validate the user's available balance.
 
 # Live Site: 
-https://pciu-bank.netlify.app/
+https://pciu-bank-suprio.netlify.app/
+
+**Note:**
+For google security issue, i have to remove the login page from live site. But, you can use the login page code for your work without any problems. 
