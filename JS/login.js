@@ -17,4 +17,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         // Display an alert or perform other actions for invalid credentials
         alert('Wrong input. Please try again.');
     }
+
+    emailField.value = '';
+    passwordField.value = '';
 })
